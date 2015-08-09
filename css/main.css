@@ -1,0 +1,15 @@
+/*
+//javascript-game用CSSファイル
+*/
+body {
+    margin : auto;
+    text-align : left;
+}
+
+div.maincanvas {
+    text-align : center;
+}
+
+div#reRender {
+    text-align : center;
+}

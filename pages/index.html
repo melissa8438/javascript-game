@@ -4,11 +4,25 @@
         <title>
             -     game web     -
         </title>
+        <!--javascript-gameのjs読込 -->
         <script src="../js/main.js"></script>
+        <!--javascript-gameのcss読込 -->
+        <link rel="stylesheet" href="../css/main.css">
+        <!-- Bootstrap用jQuery読込 -->
+        <script src="../js/jquery-1.11.3.min.js"></script>
+        <!--Bootstrap読込 -->
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css">
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
     </head>
-<body>
-    <canvas id="maincanvas"></canvas>
-
-    <input type="button" value="���Z�b�g" onclick="rerender()"></input>
-</body>
+    <body>
+        <div class="maincanvas">
+            <canvas id="maincanvas"></canvas>
+        </div>
+            <div class="btn-group btn-group-lg" role="group">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-refresh" aria-hidden="true" onclick="reRender()"></span>
+                </button>
+            </div>
+    </body>
 </html>
